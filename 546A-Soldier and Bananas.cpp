@@ -20,15 +20,19 @@ typedef unsigned long long ull;
 
 //--------------------------------------------------------//
 
-
+//JUST FOR FUN ;/
 int main(){
 fastio;
-    int n,k,w,cost=0;
+    int n,k,w;
+    ll cost=0;
     cin>>n>>k>>w;
 
     for(int i=1; i<=w; i++){
         cost+=i*n;
     }
+    if(cost<= k){
+		cout<<0<<"\n";
+	}
+	else
     cout<<cost-k;
-    return 0;
 }
