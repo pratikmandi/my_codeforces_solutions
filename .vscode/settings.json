@@ -1,6 +1,3 @@
 {
-    "files.associations": {
-        "ios": "cpp"
-    },
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.default.compilerPath": "${default}"
 }

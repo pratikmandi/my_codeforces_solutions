@@ -26,14 +26,19 @@ template<typename typC> ostream &operator<<(ostream &cout,const vector<typC> &a)
 // ===================================END Of the input module ================================================//
 
 int solve(){
-    int n,a,b;
-    cin>>n>>a>>b;
-    
-    cout<<min(n-a, b+1)<<endl;
-}
+    string a,b;
+    cin>>a>>b;
 
+    swap(a[0], b[0]);
+    cout<<a<<" "<<b<<endl;
+}
 int main(){
     fastio;
-    solve();
+    int t;
+    cin>>t;
+    while(t--){
+        solve();
+    }
     return 0;
+    
 }
